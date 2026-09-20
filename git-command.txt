@@ -4,3 +4,13 @@
    (c) git config user.email
    (d) git config --g user.name "your user name"
    (e) git config --g user.email "your email"
+
+2. git init                Create a new local repository
+   git clone [url]         Copy a remote repository locally
+   git status              Check the state of your working directory
+   git add [file]          Stage specific changes for commit
+   git commit -m "msg"     Save staged changes with a message
+   git branch              List, create, or delete branches
+   git checkout [branch]   Switch to a different branch
+   git pull                Fetch and merge remote changes
+   git push                Upload local changes to remote
