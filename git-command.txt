@@ -1,0 +1,6 @@
+1.   git config
+   (a) git config
+   (b) git config user.name
+   (c) git config user.email
+   (d) git config --g user.name "your user name"
+   (e) git config --g user.email "your email"
