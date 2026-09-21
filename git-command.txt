@@ -40,4 +40,16 @@ and modified, while the -m flag allows you to provide your commit message right 
       The command is as under:-
 
              git commit -am "Your commit message"
-             
+
+ 5. Common Uses of git diff:-
+
+   (a)  git diff: Compares your working directory with your staging area. It shows what you changed
+   but have not added yet with git add.
+
+   (b)  git diff --staged: Compares your staged changes with your last commit. It shows what is ready to
+   go into your next commit.
+
+   (c)  git diff HEAD: Compares your working directory against your most recent commit. It shows all
+   current changes, both staged and unstaged.
+   
+   (d)  git diff branch1 branch2: Compares two different branches to see what code differs between them.            
