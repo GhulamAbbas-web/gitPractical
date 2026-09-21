@@ -17,18 +17,27 @@
 3. The git log command is used to display the chronological history of commits in a Git repository,
 letting you see who made changes, when they were made, and what was modified.
 
-git log --oneline: Condenses each commit into a single, compact line with a short hash
+   git log --oneline: Condenses each commit into a single, compact line with a short hash
                          and the commit message.
-git log -n 5:            Limits the output to only the last 5 commits to keep your screen clean.
-git log --graph:         Adds a text-based visual graph of your branch and merge history on the 
+   git log -n 5:            Limits the output to only the last 5 commits to keep your screen clean.
+   git log --graph:         Adds a text-based visual graph of your branch and merge history on the 
                          left side of the screen.
-git log -p:              Shows the commit history along with the actual line-by-line code 
+   git log -p:              Shows the commit history along with the actual line-by-line code 
                          differences (patches) introduced in each commit.
-git log --author="Name": Filters the history to show only commits made by a specific person.
+   git log --author="Name": Filters the history to show only commits made by a specific person.
 
 Quick Pager Navigation Shortcuts
 
-(a).  q:                      Quit the log immediately and return to the command line.
-(b).  j or ↓ (Down Arrow):    Move down one line.
-(c).  k or ↑ (Up Arrow):      Move up one line.
-(d).  Spacebar:               Scroll down one full page.
+   (a).  q:                      Quit the log immediately and return to the command line.
+   (b).  j or ↓ (Down Arrow):    Move down one line.
+   (c).  k or ↑ (Up Arrow):      Move up one line.
+   (d).  Spacebar:               Scroll down one full page.
+
+4. You can bypass the staging area (git add) and commit your changes directly by using
+the git commit -am command.
+      The -a (or --all) flag tells Git to automatically stage any files that have already been tracked
+and modified, while the -m flag allows you to provide your commit message right inline.
+      The command is as under:-
+
+             git commit -am "Your commit message"
+             
