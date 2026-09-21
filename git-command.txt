@@ -52,4 +52,6 @@ and modified, while the -m flag allows you to provide your commit message right 
    (c)  git diff HEAD: Compares your working directory against your most recent commit. It shows all
    current changes, both staged and unstaged.
    
-   (d)  git diff branch1 branch2: Compares two different branches to see what code differs between them.            
+   (d)  git diff branch1 branch2: Compares two different branches to see what code differs between them. 
+ 6.  git rm --cached --ignore-unmatch path/to/file.ext
+     git rm --cached <file name>
