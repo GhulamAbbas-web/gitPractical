@@ -53,5 +53,12 @@ and modified, while the -m flag allows you to provide your commit message right 
    current changes, both staged and unstaged.
    
    (d)  git diff branch1 branch2: Compares two different branches to see what code differs between them. 
+
  6.  git rm --cached --ignore-unmatch path/to/file.ext
      git rm --cached <file name>
+ 
+ 7.  To push code to a GitHub remote repository, you use the terminal or command line to initialize Git,
+ stage your files, commit them, link your local project to GitHub, and run the git push command.
+
+ 
+
