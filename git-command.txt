@@ -60,5 +60,8 @@ and modified, while the -m flag allows you to provide your commit message right 
  7.  To push code to a GitHub remote repository, you use the terminal or command line to initialize Git,
  stage your files, commit them, link your local project to GitHub, and run the git push command.
 
+ 8.  To pull code from GitHub, the method you choose depends on whether you are downloading a project
+ for the first time or updating an existing local project with new changes.
+
  
 
